@@ -10,7 +10,10 @@ In the era of technology-driven advancements, ensuring the optimal performance a
 
 ### Code Summary
 
-In this study, we conducted a classification task to determine if a CPU is overheated or not based on various input features, including temperature, fan speed, CPU load, GPU load, RAM usage, and VRAM usage. The dataset, consisting of over 7500 samples of 6 features, was generated synthetically to simulate real-world conditions.
+In this study, we conducted a classification task to determine if a CPU is overheated or not based on various input features, including temperature, fan speed, CPU load, GPU load, RAM usage, and VRAM usage. 
+
+##### Dataset Description
+The dataset, consisting of over 7500 samples of 6 features, was generated synthetically to simulate real-world conditions.
 The exact relationships between these factors can be complex and may depend on the specific hardware, system configuration, workload, and other variables. However, a simplified example of how these factors might interact:
 
 Let's assume a simple rule of thumb for illustration purposes:
@@ -25,6 +28,10 @@ OR
 Temperature > 80°C
 Either fan speed is greater than 3000 RPM or CPU load is greater than 0.8
 Either CPU load is greater than 0.7, GPU load is greater than 0.7, RAM usage is greater than 0.7, or VRAM usage is greater than 0.7
+
+![download (1)](https://github.com/Ashwath0102/Comparative-Study-of-Machine-Learning-and-Deep-Learning-Models-for-PC-Overheating-Detection/assets/59199696/fdb8242e-844f-4271-92ad-9f8b50de3f9b)
+![download](https://github.com/Ashwath0102/Comparative-Study-of-Machine-Learning-and-Deep-Learning-Models-for-PC-Overheating-Detection/assets/59199696/35d8b611-61d7-442f-ad28-98472966ffab)
+
 
 We explored several machine learning models, including Logistic Regression, Decision Tree, Random Forest, Naive Bayes, and Support Vector Machine, to predict CPU overheating. Additionally, a deep learning model with three layers was implemented for comparison.
 
