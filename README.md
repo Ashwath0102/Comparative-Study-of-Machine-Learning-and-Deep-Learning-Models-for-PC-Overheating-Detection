@@ -2,13 +2,13 @@
 
 This code focuses on a classification task to determine whether a personal computer (PC) is overheated or not. The study involves a comparative analysis of machine learning and deep learning models based on their accuracy in detecting CPU overheating. The primary goal is to identify the most effective model for accurate and reliable detection.
 
-Basically,when the CPU is under heavy load or the temperature starts to rise, the system's thermal management mechanism will typically increase the fan speed to help cool down the CPU and maintain its temperature within a safe range. This is a common practice in laptops, desktops, and other computing devices to prevent overheating.
+Basically, when the CPU is under heavy load or the temperature starts to rise, the system's thermal management mechanism will typically increase the fan speed to help cool down the CPU and maintain its temperature within a safe range. This is a common practice in laptops, desktops, and other computing devices to prevent overheating.
 
-###Problem Statement
+### Problem Statement
 
 In the era of technology-driven advancements, ensuring the optimal performance and safety of computing devices is paramount. Overheating is a critical issue that can not only compromise the functionality of a computer but also pose potential hazards. Therefore, developing efficient methods for CPU overheating detection is of significant importance.
 
-###Code Summary
+### Code Summary
 
 In this study, we conducted a classification task to determine if a CPU is overheated or not based on various input features, including temperature, fan speed, CPU load, GPU load, RAM usage, and VRAM usage. The dataset, consisting of over 7500 samples of 6 features, was generated synthetically to simulate real-world conditions.
 The exact relationships between these factors can be complex and may depend on the specific hardware, system configuration, workload, and other variables. However, a simplified example of how these factors might interact:
@@ -28,7 +28,7 @@ Either CPU load is greater than 0.7, GPU load is greater than 0.7, RAM usage is 
 
 We explored several machine learning models, including Logistic Regression, Decision Tree, Random Forest, Naive Bayes, and Support Vector Machine, to predict CPU overheating. Additionally, a deep learning model with three layers was implemented for comparison.
 
-###Result
+### Result
 
 The research findings indicate the following accuracies for CPU overheating detection:
 
@@ -45,11 +45,11 @@ Based on accuracy, the Decision Tree model stands out as the best performer with
 
 This comparative analysis serves as a valuable resource for selecting an appropriate model for CPU overheating detection, ensuring system health and user satisfaction.
 
-###Phyical Limitations
+### Phyical Limitations
 
 **Overheating** can occur due to factors such as inadequate cooling, insufficient thermal paste application, high CPU load, poor ventilation, blocked air vents, and more. Fans play a crucial role in cooling the components and preventing overheating by dissipating heat away from the CPU.
 
-###Reasons For Overheating
+### Reasons For Overheating
 
 Overheating in a computer system can be caused by a combination of several factors. Here are some of the key factors that contribute to overheating:
 
@@ -107,4 +107,4 @@ Over time, the thermal paste between components and heatsinks can dry up, reduci
 *Closed or Obstructed Case:*
 A closed or obstructed computer case can trap heat and affect airflow.
 
-***To prevent overheating, it's important to maintain proper cooling, monitor component temperatures, clean dust regularly, optimize software usage, and ensure that your system's hardware components are working as intended.***
+***Solution: To prevent overheating, it's important to maintain proper cooling, monitor component temperatures, clean dust regularly, optimize software usage, and ensure that your system's hardware components are working as intended.***
