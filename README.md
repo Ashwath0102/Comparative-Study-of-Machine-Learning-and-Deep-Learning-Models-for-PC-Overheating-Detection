@@ -45,6 +45,8 @@ Based on accuracy, the Decision Tree model stands out as the best performer with
 
 This comparative analysis serves as a valuable resource for selecting an appropriate model for CPU overheating detection, ensuring system health and user satisfaction.
 
+*Side note: Keep in mind that this example is a simplified illustration and real-world scenarios can be more intricate due to the interplay of various factors.*
+
 ### Phyical Limitations
 
 **Overheating** can occur due to factors such as inadequate cooling, insufficient thermal paste application, high CPU load, poor ventilation, blocked air vents, and more. Fans play a crucial role in cooling the components and preventing overheating by dissipating heat away from the CPU.
@@ -108,3 +110,7 @@ Over time, the thermal paste between components and heatsinks can dry up, reduci
 A closed or obstructed computer case can trap heat and affect airflow.
 
 ***Solution: To prevent overheating, it's important to maintain proper cooling, monitor component temperatures, clean dust regularly, optimize software usage, and ensure that your system's hardware components are working as intended.***
+
+**Note:** It's essential to monitor your CPU's temperature, fan speed, and load while running intensive tasks or during prolonged usage. Many hardware monitoring tools are available that can provide real-time data on these parameters.
+
+For accurate and reliable results, consider consulting your CPU's documentation or the manufacturer's recommendations for safe operating temperatures and optimal fan speed settings. It's always better to keep your CPU within its specified temperature range to ensure longevity and reliable performance.
