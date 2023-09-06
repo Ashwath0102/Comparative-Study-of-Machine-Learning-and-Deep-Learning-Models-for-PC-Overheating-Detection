@@ -1,0 +1,1 @@
+# Comparative-Study-of-Machine-Learning-and-Deep-Learning-Models-for-PC-Overheating-Detection
