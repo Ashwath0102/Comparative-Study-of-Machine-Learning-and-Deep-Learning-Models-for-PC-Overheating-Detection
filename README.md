@@ -29,11 +29,14 @@ Temperature > 80°C
 Either fan speed is greater than 3000 RPM or CPU load is greater than 0.8
 Either CPU load is greater than 0.7, GPU load is greater than 0.7, RAM usage is greater than 0.7, or VRAM usage is greater than 0.7
 
+Effect of Fan speed on Overheating:
 ![download (1)](https://github.com/Ashwath0102/Comparative-Study-of-Machine-Learning-and-Deep-Learning-Models-for-PC-Overheating-Detection/assets/59199696/fdb8242e-844f-4271-92ad-9f8b50de3f9b)
+
+Pairplot on how the selected input features affect the output
 ![download](https://github.com/Ashwath0102/Comparative-Study-of-Machine-Learning-and-Deep-Learning-Models-for-PC-Overheating-Detection/assets/59199696/35d8b611-61d7-442f-ad28-98472966ffab)
 
 
-We explored several machine learning models, including Logistic Regression, Decision Tree, Random Forest, Naive Bayes, and Support Vector Machine, to predict CPU overheating. Additionally, a deep learning model with three layers was implemented for comparison.
+We explored several machine learning models, including **Logistic Regression, Decision Tree, Random Forest, Naive Bayes, and Support Vector Machine,** to predict CPU overheating. Additionally, a **deep learning model** with three layers was implemented for comparison.
 
 ### Result
 
